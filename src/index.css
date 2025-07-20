@@ -8,33 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Industrial Design System */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 215 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Industrial Blue Primary */
+    --primary: 210 100% 25%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 210 100% 35%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Tech Secondary */
+    --secondary: 215 20% 92%;
+    --secondary-foreground: 215 25% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 215 15% 95%;
+    --muted-foreground: 215 10% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Industrial Orange Accent */
+    --accent: 25 95% 55%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 215 15% 88%;
+    --input: 215 15% 88%;
+    --ring: 210 100% 25%;
+
+    /* Industrial Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(210 100% 25%), hsl(210 100% 35%));
+    --gradient-tech: linear-gradient(180deg, hsl(215 20% 98%), hsl(215 15% 95%));
+    --gradient-overlay: linear-gradient(135deg, hsl(210 100% 25% / 0.9), hsl(210 100% 35% / 0.8));
+
+    /* Industrial Shadows */
+    --shadow-industrial: 0 10px 40px -10px hsl(210 100% 25% / 0.3);
+    --shadow-tech: 0 4px 20px -4px hsl(215 15% 70% / 0.4);
+    --shadow-glow: 0 0 30px hsl(210 100% 35% / 0.3);
 
     --radius: 0.5rem;
 
